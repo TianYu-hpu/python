@@ -1,6 +1,7 @@
 import scrapy
 import bs4
- 
+
+from ..items import BookDoubanItem
 '''
 导入BeautifulSoup用于解析和提取数据;导入scrapy是待会我们要用创建类的方式写这个爬虫，
 我们所创建的类将直接继承scrapy中的scrapy.Spider类。这样，有许多好用属性和方法，就能够直接使用。
