@@ -1,4 +1,5 @@
 #mytest模块
+print("我是mytest模块")
 strtest = '驭风少年'
 
 def hello():
